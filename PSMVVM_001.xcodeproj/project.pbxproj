@@ -13,6 +13,9 @@
 		2D2A08E3297E2E05004EE997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A08E1297E2E05004EE997 /* Main.storyboard */; };
 		2D2A08E5297E2E08004EE997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A08E4297E2E08004EE997 /* Assets.xcassets */; };
 		2D2A08E8297E2E08004EE997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A08E6297E2E08004EE997 /* LaunchScreen.storyboard */; };
+		2D2A08F4297E3478004EE997 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A08F3297E3478004EE997 /* LoginViewModel.swift */; };
+		2D2A08F7297E357C004EE997 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A08F6297E357C004EE997 /* BindingTextField.swift */; };
+		2D2A0900297F6D29004EE997 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A08FF297F6D29004EE997 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2D2A08E4297E2E08004EE997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2A08E7297E2E08004EE997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2A08E9297E2E08004EE997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2A08F3297E3478004EE997 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2D2A08F6297E357C004EE997 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		2D2A08FF297F6D29004EE997 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		2D2A08DA297E2E05004EE997 /* PSMVVM_001 */ = {
 			isa = PBXGroup;
 			children = (
+				2D2A08FE297F6D16004EE997 /* Generics */,
+				2D2A08F5297E3550004EE997 /* Custom Views */,
+				2D2A08F0297E3422004EE997 /* View Model */,
+				2D2A08EF297E340E004EE997 /* View */,
 				2D2A08DB297E2E05004EE997 /* AppDelegate.swift */,
 				2D2A08DD297E2E05004EE997 /* SceneDelegate.swift */,
-				2D2A08DF297E2E05004EE997 /* ViewController.swift */,
-				2D2A08E1297E2E05004EE997 /* Main.storyboard */,
 				2D2A08E4297E2E08004EE997 /* Assets.xcassets */,
+				2D2A08E1297E2E05004EE997 /* Main.storyboard */,
 				2D2A08E6297E2E08004EE997 /* LaunchScreen.storyboard */,
 				2D2A08E9297E2E08004EE997 /* Info.plist */,
 			);
 			path = PSMVVM_001;
+			sourceTree = "<group>";
+		};
+		2D2A08EF297E340E004EE997 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A08DF297E2E05004EE997 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D2A08F0297E3422004EE997 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A08F3297E3478004EE997 /* LoginViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		2D2A08F5297E3550004EE997 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A08F6297E357C004EE997 /* BindingTextField.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		2D2A08FE297F6D16004EE997 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A08FF297F6D29004EE997 /* Dynamic.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2A08F4297E3478004EE997 /* LoginViewModel.swift in Sources */,
 				2D2A08E0297E2E05004EE997 /* ViewController.swift in Sources */,
+				2D2A08F7297E357C004EE997 /* BindingTextField.swift in Sources */,
+				2D2A0900297F6D29004EE997 /* Dynamic.swift in Sources */,
 				2D2A08DC297E2E05004EE997 /* AppDelegate.swift in Sources */,
 				2D2A08DE297E2E05004EE997 /* SceneDelegate.swift in Sources */,
 			);
